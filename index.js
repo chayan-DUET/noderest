@@ -17,7 +17,7 @@ const conn = mysql.createConnection({
 // connect to database
 conn.connect((err) => {
 	if (err) throw err;
-	console.log("MySQL connected");
+	console.log("MySQL is connected");
 });
 
 // creat a new Record
