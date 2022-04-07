@@ -21,7 +21,6 @@ conn.connect((err) => {
 	if (err) throw err;
 	console.log("MySQL is connected");
 }); */
-
 // creat a new Record
 app.use(userRoute);
 
